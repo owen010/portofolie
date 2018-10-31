@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styler.css">
+    <script type="text/javascript">
+        $(window).on('SCROLL', function(){
+            if($(window).scrolltop()) {
+                $('nav').addclas('black');
+            }
+            else{
+                $('nav').removeclass('black');
+            }
+        })
+    </script>
+</head>
+<body>
+<div class="wrapper">
+    <nav>
+        <div class="logo"></div>
+        <ul>
+            <li><a href="indexP.html">Home</a></li>
+            <li><a href="indexA.html">Over mij</a></li>
+            <li><a href="indexG.html">Galerij</a></li>
+            <li><a href="indexC.html">Contact</a></li>
+            <li><a class="active" href="indexL.html">Log in</a></li>
+        </ul>
+    </nav>
+    <section class="sec1"></section>
+    "<section class="content">
+
+</section>
+</div>
+
+
+
+<div class="box">
+    <img src="profilepic.jpg" alt="" class="box-img">
+    <h1>Owen Kramer</h1>
+    <h5>Web Developer - Web Designer</h5>
+    <p>Ik ben Owen Kramer ik ben 17 jaar oud. Ik woon in Rotterdam en doe de opleiding Applicatie- mediaontwikkelaar op het Techniek college Rotterdam</p>
+    <ul>
+        <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
+    </ul>
+
+</div>
+
+
+</body>
+</html>

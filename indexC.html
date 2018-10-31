@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="stylerC.css">
+</head>
+<body>
+        <div class="contact-title">
+            <h1>Zeg hallo!</h1>
+            <h2>Voor informatie kunt u me een bericht sturen</h2>
+        </div>
+            <div class="contact-form">
+            <form id="contact-form" method="post" action="contact-form-handler.php">
+                <input name="name" type="text" class="form-control" placeholder="Je naam" required><br>
+                <input name="email" type="email" class="form-control" placeholder="Je Email" required><br>
+
+                <textarea name="message" class="form-control" placeholder="Bericht" row="4" required></textarea><br>
+
+                <input type="submit" class="form-control submit" value="STUUR BERICHT">
+
+            </form>
+
+            </div>
+</body>
+</html>
